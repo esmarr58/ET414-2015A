@@ -1,0 +1,51 @@
+
+
+/*
+   Cosas nuevas de la sesion2:
+   
+   VideoCapture:
+       Es una clase de opencv que permite abrir
+       una camara web.
+       
+       Ejemplo:
+       
+       VideoCapture nombre_objeto(#objeto);
+       
+  .isOpened():
+      Es una funcion de la clase VideoCapture.
+      Esta funcion regresa 1(verdadero) si el usuario
+      tiene acceso a la camara web. Regresa 0(falso)
+      si el usuario no tiene permiso o camara esta ocupada.
+      
+  imshow(param1,param2):
+      Es una funcion de opencv que permite "crear"
+      una ventana en el entorno visual de linx.
+      Esta ventana puede contener matrices de opencv.
+      Tiene dos parametros.
+        param1:  Nombre de la ventana.
+        param2:  Nombre de la matriz.
+        
+      Ejemplo:
+      
+      imshow("MiVEntana1", matriz_patito);
+      
+  waitKey():
+  
+    Es una funcion de opencv que "espera" un tiempo
+    en mili-segundos indicado por el parametro dentro
+    del parentesis, a que el usuario preciona la telca 
+    indicada.
+    
+    Ejemplo:
+    if(waitKey(1000) == 'j') { //instrucciones}
+  
+Directorio:
+  S2E1.cpp  
+    Programa de ejemplo de la sesion1. Muestra
+    la camara de video en una ventana con opencv.
+
+  plantilla.cpp
+    Es la plantilla del semestre, se usara para
+    todos los proyectos.
+    `
+*/
