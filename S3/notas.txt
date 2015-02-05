@@ -1,0 +1,50 @@
+/*
+   Cosas nuevas de la sesion3:
+   
+   **Como declara una clase.
+    Ejemplo:
+        class NombreClase{ 
+          public:
+            double variable1;
+            tipo_variable_n  nombre_variable_n;
+        };
+        
+  **Clase: es una estrucutra en la cual
+              se definen las caracteristicas de un
+              objeto.
+  **Objeto: es un elemento de c++ que hereda
+        a los miembros de la clase que lo genera.
+  
+  **Como declara un objeto:
+  
+    NombreClase NombreObjeto;
+    
+  ** Como declara una matriz e inicializarla
+  
+  Mat NombreMatriz(largo, ancho, CV_8UC3, Scalar(B, G, R));
+        
+  
+  
+  
+Directorio:
+  S3E1.cpp 
+      Declaracion de una clase llamada Caja que contiene
+      a 3 miembros: largo, ancho, alto;
+      En este programa se ve el uso, declaracion e 
+      inicializacion de los objetos, clases y miembros.
+      
+  
+  S3E2.cpp 
+    DEclara una matriz llamada "A" que tiene 250 pixeles
+    de ancho, 250 pixeles de largo, es de 8 bits,
+    sin signo, 3 capas, 
+    la capa (B - blue(Azul)) tiene un valor de 0
+    la capa (G - Green(Verde)) un valor de 255,
+    la capa (R - Red(ROjo)) tiene un valor de 0.
+    
+
+  plantilla.cpp
+    Es la plantilla del semestre, se usara para
+    todos los proyectos.
+    `
+*/
