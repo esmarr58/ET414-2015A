@@ -27,3 +27,8 @@ mail < filename.ascii someone@somewhere.com -s "My File"
 
 sudo apt-get install mpack
  mpack -s subject picture.png address@example.com
+
+
+Fuente original:
+
+https://tutorialesparavagos.wordpress.com/tag/correo/ 
