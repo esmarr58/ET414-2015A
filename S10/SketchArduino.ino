@@ -8,7 +8,8 @@ int test = 13;
 void setup(void)
 {
   Serial.begin(9600);
-  pinMode(test,OUTPUT);
+  for(int i=0; i<=13; i++)
+  pinMode(i,OUTPUT);
   
 }
 
